@@ -1,0 +1,35 @@
+body {
+    background: rgb(78, 149, 230);
+}
+
+.avatars {
+    text-align: center;
+}
+
+.avatars > a {
+    text-decoration: none;
+}
+
+.avatars > a > img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px rgba(52, 102, 136, 0.97) solid;
+    transition: width .8s;
+    top: 35%;
+    box-shadow: 1px 1px 20px #073048;
+}
+
+.avatars > a:first-child > img {
+    left: 20%;
+}
+
+.avatars > a:last-child > img {
+    right: 20%;
+}
+
+.avatars > a > img:hover {
+    width: 190px;
+    height: 190px;
+}
